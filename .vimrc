@@ -8,23 +8,25 @@ call vundle#begin()
 "call vundle#begin('~/some/path/here')
 
 " let Vundle manage Vundle, required
-"Plugin 'gmarik/Vundle.vim'
+Plugin 'gmarik/Vundle.vim'
 
-" The following are examples of different formats supported.
-" Keep Plugin commands between vundle#begin/end.
-" plugin on GitHub repo
-"Plugin 'tpope/vim-fugitive'
-" plugin from http://vim-scripts.org/vim/scripts.html
-"Plugin 'L9'
-" Git plugin not hosted on GitHub
-"Plugin 'git://git.wincent.com/command-t.git'
-" git repos on your local machine (i.e. when working on your own plugin)
-"Plugin 'file:///home/gmarik/path/to/plugin'
-" The sparkup vim script is in a subdirectory of this repo called vim.
-" Pass the path to set the runtimepath properly.
-"Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
-" Avoid a name conflict with L9
-"Plugin 'user/L9', {'name': 'newL9'}
+Plugin https://github.com/StanAngeloff/php.vim 
+Plugin https://github.com/b4winckler/vim-objc.git 
+Plugin https://github.com/elzr/vim-json.git 
+Plugin https://github.com/evidens/vim-twig.git 
+Plugin https://github.com/groenewege/vim-less 
+Plugin https://github.com/hail2u/vim-css3-syntax.git 
+Plugin https://github.com/othree/html5.vim.git 
+Plugin https://github.com/pangloss/vim-javascript.git 
+Plugin https://github.com/plasticboy/vim-markdown.git 
+Plugin https://github.com/saltstack/salt-vim.git 
+Plugin https://github.com/scrooloose/syntastic.git 
+Plugin https://github.com/sickill/vim-pasta.git 
+Plugin https://github.com/stephpy/vim-php-cs-fixer.git 
+Plugin https://github.com/stephpy/vim-yaml.git 
+Plugin https://github.com/tokutake/twig-indent 
+Plugin https://github.com/tpope/vim-git 
+Plugin https://github.com/tpope/vim-sensible.git 
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
