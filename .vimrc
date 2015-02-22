@@ -10,23 +10,23 @@ call vundle#begin()
 " let Vundle manage Vundle, required
 Plugin 'gmarik/Vundle.vim'
 
-Plugin https://github.com/StanAngeloff/php.vim 
-Plugin https://github.com/b4winckler/vim-objc.git 
-Plugin https://github.com/elzr/vim-json.git 
-Plugin https://github.com/evidens/vim-twig.git 
-Plugin https://github.com/groenewege/vim-less 
-Plugin https://github.com/hail2u/vim-css3-syntax.git 
-Plugin https://github.com/othree/html5.vim.git 
-Plugin https://github.com/pangloss/vim-javascript.git 
-Plugin https://github.com/plasticboy/vim-markdown.git 
-Plugin https://github.com/saltstack/salt-vim.git 
-Plugin https://github.com/scrooloose/syntastic.git 
-Plugin https://github.com/sickill/vim-pasta.git 
-Plugin https://github.com/stephpy/vim-php-cs-fixer.git 
-Plugin https://github.com/stephpy/vim-yaml.git 
-Plugin https://github.com/tokutake/twig-indent 
-Plugin https://github.com/tpope/vim-git 
-Plugin https://github.com/tpope/vim-sensible.git 
+Plugin 'StanAngeloff/php.vim'
+Plugin 'b4winckler/vim-objc.git'
+Plugin 'elzr/vim-json.git'
+Plugin 'evidens/vim-twig.git'
+Plugin 'groenewege/vim-less'
+Plugin 'hail2u/vim-css3-syntax.git'
+Plugin 'othree/html5.vim.git'
+Plugin 'pangloss/vim-javascript.git'
+Plugin 'plasticboy/vim-markdown.git'
+Plugin 'saltstack/salt-vim.git'
+Plugin 'scrooloose/syntastic.git'
+Plugin 'sickill/vim-pasta.git'
+Plugin 'stephpy/vim-php-cs-fixer.git'
+Plugin 'stephpy/vim-yaml.git'
+Plugin 'tokutake/twig-indent'
+Plugin 'tpope/vim-git'
+Plugin 'tpope/vim-sensible.git'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
