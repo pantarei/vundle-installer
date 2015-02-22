@@ -24,7 +24,7 @@ Plugin 'sickill/vim-pasta'
 Plugin 'stephpy/vim-php-cs-fixer'
 Plugin 'stephpy/vim-yaml'
 Plugin 'tokutake/twig-indent'
-Plugin 'tpope/vim'
+Plugin 'tpope/vim-git'
 Plugin 'tpope/vim-sensible'
 
 " Drupal's vim plugin need special handling...
