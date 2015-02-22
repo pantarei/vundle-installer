@@ -10,6 +10,7 @@ call vundle#begin()
 " let Vundle manage Vundle, required
 Plugin 'gmarik/Vundle.vim'
 
+" plugin on GitHub repo
 Plugin 'StanAngeloff/php.vim'
 Plugin 'b4winckler/vim-objc.git'
 Plugin 'elzr/vim-json.git'
@@ -27,6 +28,10 @@ Plugin 'stephpy/vim-yaml.git'
 Plugin 'tokutake/twig-indent'
 Plugin 'tpope/vim-git'
 Plugin 'tpope/vim-sensible.git'
+
+" The sparkup vim script is in a subdirectory of this repo called vim.
+" Pass the path to set the runtimepath properly.
+Plugin 'git://drupalcode.org/project/vimrc.git', {'rtp': 'bundle/vim-plugin-for-drupal/', 'name': 'vim-plugin-for-drupal'}
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
