@@ -14,7 +14,7 @@ mkdir -p $TMP_DIR/orig
 mv $HOME/.vim* $TMP_DIR/orig/
 
 # Fetch Vundle.vim.
-git clone https://github.com/gmarik/Vundle.vim.git $VIM_BUNDLE_DIR
+git clone https://github.com/gmarik/Vundle.vim.git $VIM_BUNDLE_DIR/Vundle.vim
 curl -sL https://raw.githubusercontent.com/pantarei/vundle-installer/master/.vimrc > $HOME/.vimrc
 
 # Install plugins.
