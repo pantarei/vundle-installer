@@ -9,6 +9,8 @@ call vundle#begin()
 Plugin 'gmarik/Vundle.vim'
 
 " Fetch latest bundles.
+Plugin '2072/PHP-Indenting-for-VIm'
+Plugin '2072/vim-syntax-for-PHP'
 Plugin 'StanAngeloff/php.vim'
 Plugin 'b4winckler/vim-objc'
 Plugin 'elzr/vim-json'
@@ -17,7 +19,6 @@ Plugin 'groenewege/vim-less'
 Plugin 'hail2u/vim-css3-syntax'
 Plugin 'othree/html5.vim'
 Plugin 'pangloss/vim-javascript'
-Plugin 'plasticboy/vim-markdown'
 Plugin 'saltstack/salt-vim'
 Plugin 'scrooloose/syntastic'
 Plugin 'sickill/vim-pasta'
@@ -25,6 +26,8 @@ Plugin 'stephpy/vim-php-cs-fixer'
 Plugin 'stephpy/vim-yaml'
 Plugin 'tokutake/twig-indent'
 Plugin 'tpope/vim-git'
+Plugin 'tpope/vim-haml'
+Plugin 'tpope/vim-markdown'
 Plugin 'tpope/vim-sensible'
 
 " Drupal's vim plugin need special handling...
