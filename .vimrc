@@ -29,6 +29,7 @@ Plugin 'tpope/vim-git'
 Plugin 'tpope/vim-haml'
 Plugin 'tpope/vim-markdown'
 Plugin 'tpope/vim-sensible'
+Plugin 'vim-scripts/Align'
 
 " Drupal's vim plugin need special handling...
 Plugin 'git://drupalcode.org/project/vimrc.git', {'rtp': 'bundle/vim-plugin-for-drupal/', 'name': 'vim-plugin-for-drupal'}
